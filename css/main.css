@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../src/bg1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  font-family: 'Barlow Condensed', sans-serif; }
+
+.bg-colors {
+  background-color: #262624;
+  color: #F2F2F2; }
+
+#nav-menu ul li {
+  font-size: 15px;
+  border-right: 1px solid #F2F2F2; }
+  #nav-menu ul li a:hover {
+    color: #A6A186; }
+
+.myrow {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  vertical-align: middle; }
+  .myrow .avatar {
+    width: 50%;
+    height: 50%; }
+
+p {
+  color: aliceblue; }
+
+@media only screen and (max-width: 768px) {
+  .btn img {
+    width: 80%;
+    height: 80%; }
+  #sobre-mi {
+    text-align: center; } }
