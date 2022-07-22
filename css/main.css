@@ -40,3 +40,18 @@ p {
     height: 80%; }
   #sobre-mi {
     text-align: center; } }
+
+#proyectos img {
+  width: 350px;
+  height: 200px; }
+
+#proyectos .card-color {
+  color: #A6A186;
+  font-size: 15px;
+  text-decoration: underline; }
+
+#proyectos .cardo:hover {
+  transform: scale(1.1); }
+
+#proyectos .cardo {
+  transition: transform .3s; }

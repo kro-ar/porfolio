@@ -49,3 +49,25 @@ p{
        text-align: center;
     }
 }
+//proyectos
+#proyectos{
+    img{
+        width: 350px;
+        height: 200px;
+    }
+    
+    .card-color{
+        color: #A6A186;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+    .cardo:hover{
+        transform: scale(1.1);
+
+    }
+    .cardo{
+        transition: transform .3s;
+    }
+}
+   
+
